@@ -52,6 +52,7 @@ body {
 nav,
 nav ul {
   height: 100vh;
+  height: -webkit-fill-available;
   margin: 0;
   padding: 0;
 }
@@ -216,6 +217,7 @@ nav li:nth-last-of-type(5) {
 section {
   width: 100%;
   min-height: 100vh;
+  min-height: -webkit-fill-available;
   position: relative;
   display: flex;
   justify-content: center;
